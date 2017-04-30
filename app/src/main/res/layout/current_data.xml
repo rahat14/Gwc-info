@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="You Are in - Africa Region \n \n \n  "
+            android:textColor="#000"
+            android:textSize="26dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            app:srcCompat="@drawable/y"
+            android:layout_alignRight="@+id/textView"
+            android:layout_alignEnd="@+id/textView" />
+
+        <TextView
+            android:id="@+id/txtView"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="You Are in - Africa Region \n \n \n  "
+            android:textColor="#000"
+            android:textSize="26dp" />
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/tetView"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:text="A new NASA study shows that agricultural fires in North Africa reduce the region's rainfall during the dry season, in a longstanding example of humans unintentionally modifying weather and regional climate. The study is the first to use satellite observations to answer the question of how smoke from these fires affects rainfal   "
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/imageView2" />
+
+</RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

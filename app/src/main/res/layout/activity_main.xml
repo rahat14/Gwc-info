@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.game_killer.gwcinfo.MainActivity">
+
+
+    <TextView
+        android:layout_width="151dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="94dp"
+        android:text="GWC Info"
+         android:textStyle="bold"
+        android:textColor="#1B46B1"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004"
+        android:layout_marginStart="94dp" />
+
+    <RelativeLayout
+        android:layout_width="330dp"
+        android:layout_height="522dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="16dp">
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button4"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/button4"
+            android:layout_marginLeft="88dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="48dp"
+            android:text="Location"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="74dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button4"
+            android:layout_alignBottom="@+id/button4"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/button4"
+            android:layout_toRightOf="@+id/button4"
+            android:text="Current Data"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="74dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="55dp"
+            android:text="What Happens"
+            tools:layout_editor_absoluteX="235dp"
+            tools:layout_editor_absoluteY="74dp" />
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
